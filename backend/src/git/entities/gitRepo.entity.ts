@@ -15,5 +15,5 @@ export class GitRepo {
   createdAt: Date;
 
   @Column()
-  ownerId: string;
+  ownerId: number;
 }

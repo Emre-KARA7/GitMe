@@ -1,8 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-export class CreateGitRepoDto {
-  @ApiProperty({ example: 'firstRepo' })
-  repoName: string;
+export class DeleteGitRepo {
   @ApiProperty({ example: 'emre' })
   uniqueUserName: string;
+  @ApiProperty({ example: 'firstRepo' })
+  repoName: string;
 }

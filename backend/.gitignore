@@ -1,5 +1,6 @@
 # data files
 pgdata/
+git-repos/
 
 # compiled output
 /dist
